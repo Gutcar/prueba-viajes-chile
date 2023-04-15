@@ -17,7 +17,14 @@ body {
 .size-30 {
     font-size: 30px;
 }
+.size-25{
+    font-size: 25px;
+}
 .margen-costados {
     margin-left: 10% !important;
     margin-right: 10% !important;
+}
+.padding-costados {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
 }
