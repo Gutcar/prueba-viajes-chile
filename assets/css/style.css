@@ -8,3 +8,16 @@ body {
 .size-img-nav {
     width: 50px;
 }
+.color-celeste {
+    background-color: #0dcaf0;
+}
+.border-suaves {
+    border-radius: 5px;
+}
+.size-30 {
+    font-size: 30px;
+}
+.margen-costados {
+    margin-left: 10%;
+    margin-right: 10%;
+}
