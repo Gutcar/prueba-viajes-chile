@@ -15,8 +15,9 @@
     <title>Viajes Chile</title>
   </head>
   <body>
+    <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg sticky-top color-bg-nav">
-      <div class="container-fluid mx-5">
+      <div class="container-fluid mx-md-5">
         <a class="navbar-brand mx-5 text-white" href="#">
           <img
             class="size-img-nav me-3"
@@ -71,6 +72,7 @@
       </div>
     </nav>
     <div class="container-fluid">
+        <!--HEADER CON CARRUSEL-->
       <header class="row">
         <div class="col p-0">
           <div
@@ -129,13 +131,16 @@
         </div>
       </header>
       <main>
+        <!--SECCION QUIENES SOMOS? CON TOOLTIPS-->
         <section id="quienes-somos" class="row">
           <div class="col margen-costados">
             <h2 class="text-light text-center my-5">¿QUIÉNES SOMOS?</h2>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4 mb-4">
+                <!--TOOLTIP PARA EL ICONO-->
                 <div
-                  class="color-celeste w-100 border-suaves text-white text-center size-30"
+                  class="color-celeste w-100 border-suaves text-white text-center size-30 white-tooltip"
+                  data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Planifica tu destino"
                 >
                   <i class="fa-solid fa-plane"></i>
                 </div>
@@ -154,7 +159,7 @@
                   necessitatibus corporis!
                 </p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 mb-4">
                 <p class="text-light">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Animi assumenda maxime vitae dolore eveniet, commodi culpa
@@ -169,15 +174,19 @@
                   dolores ducimus quia error natus itaque voluptatem. Quasi,
                   necessitatibus corporis!
                 </p>
+                <!--TOOLTIP PARA EL ICONO-->
                 <div
-                  class="color-celeste w-100 border-suaves text-white text-center size-30"
+                  class="color-celeste w-100 border-suaves text-white text-center size-30 white-tooltip"
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Conoce nuestros paisajes"
                 >
                   <i class="fa-solid fa-mountain"></i>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 mb-4">
+                <!--TOOLTIP PARA EL ICONO-->
                 <div
-                  class="color-celeste w-100 border-suaves text-white text-center size-30"
+                  class="color-celeste w-100 border-suaves text-white text-center size-30 white-tooltip"
+                  data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Planifica tu ruta"
                 >
                   <i class="fa-solid fa-route"></i>
                 </div>
@@ -199,6 +208,7 @@
             </div>
           </div>
         </section>
+        <!--SECCION DESTACADOS CON CARDS-->
         <section id="destacados" class="row">
           <div class="col margen-costados">
             <h2 class="text-light text-center my-5">DESTACADOS</h2>
@@ -286,6 +296,7 @@
             </div>
           </div>
         </section>
+        <!--SECCION CONTACTO CON FORMULARIO-->
         <section id="contacto" class="row">
           <div class="col margen-costados">
             <h2 class="text-light text-center my-5">CONTACTO</h2>
@@ -316,6 +327,7 @@
           </div>
         </section>
       </main>
+      <!--FOOTER-->
       <footer class="row">
         <div
           class="col d-flex justify-content-between align-items-center color-celeste padding-costados py-4"
@@ -334,6 +346,8 @@
       src="https://kit.fontawesome.com/d9fef5a319.js"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
